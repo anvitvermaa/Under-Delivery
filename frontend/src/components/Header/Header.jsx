@@ -7,10 +7,13 @@ const Header = () => {
       <div className="header-contents">
         <h2>Order your favourite food here</h2>
         <p>
-          Choose from a diverse menu featuring a detectable array of dishes
-          crafted with the finest ingredients and culinary expertise. Our
-          mission is to satisfy your cravings and elevate your dining
-          experience, one delicious meal at a time.
+        Under Belly is our university café, offering a diverse menu of veg, non-veg, 
+        Chinese, and Indian cuisine. Crafted with the finest ingredients and culinary 
+        expertise, every dish is made to satisfy your cravings. Whether you're in the 
+        mood for a comforting Indian curry, flavorful Chinese stir-fry, or a quick snack,
+         we’ve got something for everyone. Our mission is to create a welcoming space where 
+         great food meets great company, elevating your dining experience one delicious meal 
+         at a time.
         </p>
         <button>View Menu</button>
       </div>

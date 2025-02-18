@@ -9,10 +9,11 @@ const Footer = () => {
         <div className="footer-content-left">
           <img src={assets.logo} alt="" />
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
-            nostrum iure suscipit maiores non harum incidunt unde magnam
-            molestias ipsum qui vel aut natus aspernatur ipsa dignissimos,
-            numquam assumenda deserunt.
+          This website is proudly created by the 2023 batch 
+          students to bring Under Belly online. Explore our 
+          diverse menu and enjoy delicious meals at our university 
+          café. Designed with love for food lovers, friends, and 
+          unforgettable dining experiences.
           </p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />
@@ -33,13 +34,13 @@ const Footer = () => {
           <h2>Get in touch</h2>
           <ul>
             <li>+92-308-4900522</li>
-            <li>contact@tomato.com</li>
+            <li>contact@underdelivery.com</li>
           </ul>
         </div>
       </div>
       <hr />
       <p className="footer-copyright">
-        Copyright 2024 @ Tomato.com - All Right Reserved.
+        Copyright 2024 @ UnderDelivery.com - All Right Reserved.
       </p>
     </div>
   );

@@ -18,6 +18,15 @@ app.use(cors());
 // DB connection
 connectDB();
 
+// Loding the env file
+require('dotenv').config();  // Load environment variables
+
+const jwtSecret = process.env.JWT_SECRET;
+const mongoUrl = process.env.MONGO_URL;
+
+console.log("MongoDB URL:", mongoUrl); // Check if it's loading correctly
+
+
 // api endpoints
 app.use("/api/food", foodRouter);
 app.use("/images", express.static("uploads"));
